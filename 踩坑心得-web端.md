@@ -30,6 +30,7 @@ MessageBox.confirm('该信息不会被显示', {
 #### Form 表单验证
 
 1. 如果form绑定的数据为动态生成，那么rules（验证规则）必须在其之后声明；
+2. 要注意表单字段（attr）对应的validate属性值，后端可能传过来不同的值或者没传。
 
 
 
@@ -61,7 +62,6 @@ MessageBox.confirm('该信息不会被显示', {
 
 
 ## Vuex
-
 
 
 
